@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="1400px, initial-scale=1.0">
+    <title>부산서부버스터미널</title>
+    <!-- 파비콘 연결 -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.svg">
+    <!-- 폰트 연결 -->
+    <link rel="stylesheet" href="./css/font.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- 내 css 연결 -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header_wrap">
+        <div class="header">
+            <h1><a href="./index.html">
+                    <img src="./img/logo.png" alt="logo">
+                </a></h1>
+            <ul class="gnb">
+                <li><a href="#introduce">터미널 소개</a></li>
+                <li><a href="#reservation_wrap">승차권 예매</a></li>
+                <li><a href="#main_place">주요시설 안내</a></li>
+                <li><a href="#terminal">터미널 이용 안내</a></li>
+                <li><a href="#cs">고객센터</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ./header -->
+
+    <!-- video -->
+    <div id="video">
+        <video loop autoplay muted src="./video/busan_bus_2.mp4"></video>
+    </div>
+    <!-- ./video -->
+
+    <!-- 터미널 소개 -->
+    <div id="introduce">
+        <h1>4TUNES SQUARE</h1>
+        <h3>기분 좋은 행복을 전해드리는 복합문화공간, <span>"부산서부버스터미널"</span> 을 소개합니다.</h3>
+
+        <ul class="intro_wrap">
+            <li data-aos="fade-down-right"  data-aos-easing="linear" data-aos-duration="800">
+                <p>
+                    <span>TRAFFIC TUNE</span> <br> : 교통의 허브, 추억의 선율
+                </p>
+                <img src="./img/bus_3D.png" alt="3D">
+            </li>
+            <li data-aos="fade-down-left"  data-aos-easing="linear" data-aos-duration="800">
+                <p>
+                    <span>SHOPPING TUNE</span> <br> : 쇼핑몰&푸드코트, 설레임의 선율
+                </p>
+                <img src="./img/shopping_3D.png" alt="3D">
+            </li>
+            <li data-aos="fade-up-right" data-aos-easing="linear" data-aos-duration="800">
+                <p>
+                    <span>CULTURE TUNE</span> <br> : 문화공간, 즐거운 선율
+                </p>
+                <img src="./img/culture_3D.png" alt="3D">
+            </li>
+            <li data-aos="fade-up-left" data-aos-easing="linear" data-aos-duration="800">
+                <p>
+                    <span>NATURE TUNE</span> <br> : 자연, 공원과 휴식, 행복한 선율
+                </p>
+                <img src="./img/nature_3D.png" alt="3D">
+            </li>
+        </ul>
+
+        <p class="center">
+            네잎클로버는 포츈스퀘어의 네가지 테마를 담고 있습니다. <br>
+            서부산 최대의 교통허브, 최상의 쇼핑공간, 다채로운 문화공간, 그리고 자연 <br>
+            <span>포츈스퀘어가 여러분에게 네잎클로버의 행운처럼 기분 좋은 행복을 전해드립니다.</span>
+        </p>
+    </div>
+    <!-- ./터미널 소개 -->
+
+    <!-- 승차권 예매 -->
+    <div id="reservation_wrap">
+        <div class="reservation">
+            <div class="re_title"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                <img src="./img/point.png" alt="point">
+                <h1>승차권 예매</h1>
+            </div>
+            <ul class="go">
+                <li>
+                    <a href="https://www.kobus.co.kr/main.do" target="_blank">
+                        <img src="./img/bus_1.png" alt="bus">
+                        <p>고속버스 예약 바로가기</p>
+                    </a>
+                </li>
+                <li>
+                    <div class="per">
+                        <img src="./img/person5.png" alt="person5" class="person5">
+                    </div>
+                    <a href="https://www.bustago.or.kr/newweb/kr/index.do" target="_blank">
+                        <img src="./img/bus_2.png" alt="bus">
+                        <p>시외버스 예약 바로가기</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- ./승차권 예매 -->
+
+    <!-- 주요시설 안내 -->
+    <!-- 터미널 안내 -->
+    <div id="main_place">
+        <div class="re_title"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+            <img src="./img/point.png" alt="point">
+            <h1>주요시설 안내</h1>
+        </div>
+        <div class="main_title">
+            <h2>터미널 안내</h2>
+        </div>
+        <ul class="main">
+            <li>
+                <p>▶ 전체 MAP</p>
+                <img src="./img/map_1.jpg" alt="map_1">
+            </li>
+            <li>
+                <p>▶ 층별 구성도</p>
+                <ul class="tap">
+                    <li class="on">
+                        <a href="#">지하 1층</a>
+                        <div class="down">
+                            <ul>
+                                <li><img src="./img/step_1.jpg" alt="step_1"></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">본관 1층</a>
+                        <div class="middle">
+                            <ul>
+                                <li><img src="./img/step_2.jpg" alt="step_2"></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">본관 2층</a>
+                        <div class="middle_high">
+                            <ul>
+                                <li><img src="./img/step_3.jpg" alt="step_3"></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">본관 3층 - 5층</a>
+                        <div class="high">
+                            <ul>
+                                <li><img src="./img/step_4.jpg" alt="step_4"></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- ./터미널 안내 -->
+
+    <!-- 쇼핑/문화시설 -->
+    <div id="shopping_place">
+        <div class="main_title">
+            <h2>쇼핑/문화시설 안내</h2>
+        </div>
+
+        <img src="./img/map_point.png" alt="map_point" class="map_point">
+
+        <ul class="list">
+            <li data-aos="fade-up" data-aos-duration="700">
+                <a href="https://www.appleoutlet.kr/index/index.htm" target="_blank">
+                    <img src="./img/shopping.png" alt="shopping">
+                    <p>패션아울렛몰</p>
+                </a>
+            </li>
+            <li data-aos="fade-up" data-aos-duration="1200">
+                <a href="https://www.appleoutlet.kr/sub02/sub02.htm" target="_blank">
+                    <img src="./img/food.png" alt="food">
+                    <p>푸드코트</p>
+                </a>
+            </li>
+            <li data-aos="fade-up" data-aos-duration="1700">
+                <a href="https://www.lottecinema.co.kr/NLCHS/" target="_blank">
+                    <img src="./img/cinema.png" alt="cinema">
+                    <p>시네마</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- ./쇼팡/문화시설 -->
+
+    <!-- 편의시설 -->
+    <div id="convenient_wrap">
+        <div id="convenient">
+            <div class="main_title">
+                <h2>편의시설 안내</h2>
+            </div>
+
+            <ul class="conven">
+                <li>
+                    <div class="img">
+                        <img src="./img/ticket.png" alt="con">
+                    </div>
+                    <div class="text">
+                        <h3>승차권 자동발매기</h3>
+                        <p class="small">빠르고 편리하게 승차권을 구매하실 수 있습니다.(신용카드 전용)</p>
+                        <p class="big"><span class="site">위치</span> 터미널 1F 매표소 옆</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./img/coffee.png" alt="con">
+                    </div>
+                    <div class="text">
+                        <h3>커피전문점 & 푸드코트</h3>
+                        <p class="small">차와 음식이 있는 고객님의 쉼터입니다.</p>
+                        <p class="big"><span class="site">위치</span> 터미널 2F 푸드코트</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./img/baby_tissue.png" alt="con">
+                    </div>
+                    <div class="text">
+                        <h3>기저귀 거치대</h3>
+                        <p class="small">기저귀를 교체할 수 있는 공간입니다.</p>
+                        <p class="big"><span class="site">위치</span> 터미널 2F 푸드코트 앞 장애인 화장실 내부</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./img/baby_food.png" alt="con">
+                    </div>
+                    <div class="text">
+                        <h3>모유수유실</h3>
+                        <p class="small">아기에게 수유할 수 있는 공간입니다.</p>
+                        <p class="big"><span class="site">위치</span> 터미널 2F 푸드코트 화장실 옆</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./img/car.png" alt="con">
+                    </div>
+                    <div class="text">
+                        <h3>장애인 전용 주차</h3>
+                        <p class="small">장애인을 위한 전용 주차공간입니다.</p>
+                        <p class="big"><span class="site">위치</span> 주차장 전층</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./img/toilet.png" alt="con">
+                    </div>
+                    <div class="text">
+                        <h3>장애인 화장실</h3>
+                        <p class="small">장애인을 위한 화장실입니다.</p>
+                        <p class="big"><span class="site">위치</span> 터미널 1F 대합실, 2F 푸드코트</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./img/lock.png" alt="con">
+                    </div>
+                    <div class="text">
+                        <h3>물품보관소</h3>
+                        <p class="small">물품을 보관하실 수 있는 고객용 사물함입니다.</p>
+                        <p class="big"><span class="site">위치</span> 터미널 1F CU 편의점 옆</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="./img/cash.png" alt="con">
+                    </div>
+                    <div class="text">
+                        <h3>현금인출기(ATM) / 공중전화</h3>
+                        <p class="small">고객님의 편의를 위한 현금인출기(ATM)와 공중전화입니다.</p>
+                        <p class="big"><span class="site">위치</span> 터미널 1F 정문/하차장</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- ./편의시설 -->
+    <!-- ./주요시설 안내 -->
+
+    <!-- 터미널 이용 안내 -->
+    <!-- 매표안내 -->
+    <div id="terminal">
+        <div class="re_title"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+            <img src="./img/point.png" alt="point">
+            <h1>터미널 이용 안내</h1>
+        </div>
+
+        <div class="ticket">
+            <div class="main_title2">
+                <h2>매표 안내</h2>
+            </div>
+            <ul class="box1">
+                <li class="tablink opacity on" onclick="openBoard(event,'Board01')">운송약관요약</li>
+                <li class="tablink" onclick="openBoard(event,'Board02')">할인규정</li>
+                <li class="tablink" onclick="openBoard(event,'Board03')">환불규정</li>
+            </ul>
+            <div id="Board01" class="box1_1	board">
+                <ol class="number">
+                    <li>승차권 기재사항을 임의로 변조한 것은 무효입니다.</li>
+                    <li>승차권 분실 또는 훼손 시 재발행 및 환불불가입니다.</li>
+                    <li>승차권 환불은 수수료를 공제합니다. (환불규정 참조)</li>
+                    <li>승객 휴대품 파손, 분실 및 보관은 각자의 책임입니다.</li>
+                    <li>
+                        다음의 경우에는 승차를 거부할 수 있습니다.
+                        <ol class="han">
+                            <li>인화성물질 및 승객에게 불쾌감을 주는 물품 소지자</li>
+                            <li>만취자 또는 신변이 불결한 자</li>
+                            <li>중환자의 단독여행 또는 전염병환자</li>
+                            <li>안전운행을 위한 승무원 지시에 불응한 자</li>
+                        </ol>
+                    </li>
+                    <li>현금영수증의 자진발급사용자등록은 국세청현금영수증 서비스(www.taxsave.go.kr)에서 로그인 후 이용하시기 바랍니다.</li>
+                </ol>
+            </div>
+            <div id="Board02" class="box1_1	board" style="display:none;">
+                <table>
+                    <tr>
+                        <th rowspan="2">할인 대상자</th>
+                        <th colspan="2">할인율</th>
+                        <th rowspan="2">할인 적용시 제시 증빙서</th>
+                    </tr>
+                    <tr>
+                        <th>시외</th>
+                        <th>고속</th>
+                    </tr>
+                    <tr>
+                        <th>6세 미만</th>
+                        <td>무임</td>
+                        <td>무임</td>
+                        <td rowspan="2" class="start">
+                            여객에 동반한 6세미만 유아 1명에 한해 무임 운송.<br>
+                            (단, 소아 1인 초과 또는 좌석배정을 원할 시에는 50% 할인)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>초등학생</th>
+                        <td>50%</td>
+                        <td>50%</td>
+                    </tr>
+                    <tr>
+                        <th>중·고등학생</th>
+                        <td>20%</td>
+                        <td>없음</td>
+                        <td class="start">
+                            학생증 또는 청소년증<br>
+                            고속버스의 경우 일반고속에 한해 20% 할인 가능
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            애국지사<br>
+                            상이 1급~5급<br>
+                            5·18부상자 1급~7급
+                        </th>
+                        <td>70%</td>
+                        <td>50%</td>
+                        <td rowspan="2" class="start">
+                            ※ 국가보훈대상자(대상자별 증빙서류 상이)<br>
+                            <ol>
+                                <li>국가유공자증 (수송시설용)</li>
+                                <li>상이군경회원증</li>
+                                <li>애국지사증</li>
+                                <li>5·18민주유공자증서</li>
+                            </ol>
+                            ※ 상이 1급, 5 18 부상자 1급은 각 보호자 1인 포함입니다. <br>
+                            ※ 국가보훈처 민원상담센터 : 1577-0606
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            상이 6급~7급<br>
+                            5·18부상자 8급~14급
+                        </th>
+                        <td>30%</td>
+                        <td>30%</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="Board03" class="box1_1	board" style="display:none;">
+                <table>
+                    <tr>
+                        <th rowspan="2" colspan="2">구분</th>
+                        <th rowspan="2">취소시기</th>
+                        <th colspan="3">취소수수료</th>
+                    </tr>
+                    <tr>
+                        <th>평일(월~목)</th>
+                        <th>주말(금~일, 공휴일)</th>
+                        <th>명절(설·추석)</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="5">고속버스</th>
+                        <th rowspan="3">출발 전</th>
+                        <td>2일 전</td>
+                        <td>0%</td>
+                        <td>0%</td>
+                        <td>0%</td>
+                    </tr>
+                    <tr>
+                        <td>1일 전 ~ 3시간 이전</td>
+                        <td>5%</td>
+                        <td>7.5%</td>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <td>3시간 미만 ~ 출발 전</td>
+                        <td>10%</td>
+                        <td>15%</td>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">출발 후</th>
+                        <td>출발 후 ~ 도착예정시간 이전</td>
+                        <td colspan="3">
+                            25년 5월 1일부터 50% <br>
+                            26년 5월 1일부터 60% <br>
+                            27년 5월 1일부터 70%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>도착예정시간 초과</td>
+                        <td colspan="3">100%</td>
+                    </tr>
+                    <tr></tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <th rowspan="2" colspan="2">구분</th>
+                        <th rowspan="2">취소시기</th>
+                        <th colspan="3">취소수수료</th>
+                    </tr>
+                    <tr>
+                        <th>평일(월~목)</th>
+                        <th>주말(금~일, 공휴일)</th>
+                        <th>명절(설·추석)</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="6">시외버스</th>
+                        <th rowspan="3">출발 전</th>
+                        <td>2일 전</td>
+                        <td>0%</td>
+                        <td>0%</td>
+                        <td>0%</td>
+                    </tr>
+                    <tr>
+                        <td>1일 전 ~ 3시간 이전</td>
+                        <td>5%</td>
+                        <td>7.5%</td>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <td>3시간 미만 ~ 출발 전</td>
+                        <td>10%</td>
+                        <td>15%</td>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">출발 후</th>
+                        <td>출발 후 ~ 1시간 이전</td>
+                        <td colspan="3">40%</td>
+                    </tr>
+                    <tr>
+                        <td>1시간 초과 ~ 4시간 이전</td>
+                        <td colspan="3">
+                            25년 5월 1일부터 50% <br>
+                            26년 5월 1일부터 60% <br>
+                            27년 5월 1일부터 70%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4시간 초과</td>
+                        <td colspan="3">100%</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- ./매표안내 -->
+
+        <!-- 노선찾기 -->
+        <div id="route">
+            <div class="main_title2">
+                <h2>노선 찾기 / 승차 홈 안내</h2>
+            </div>
+
+            <div class="destination">
+                <img src="./img/footer_bus2.png" alt="bus" class="move_bus">
+                <div class="destination_left">
+                    <table>
+                        <tr>
+                            <td></td>
+                            <td><a href="#none">16</a></td>
+                            <td><a href="#none">17</a></td>
+                            <td><a href="#none">18</a></td>
+                            <td><a href="#none">19</a></td>
+                            <td><a href="#none">20</a></td>
+                            <td><a href="#none">21</a></td>
+                            <td><a href="#none">22</a></td>
+                            <td><a href="#none">23</a></td>
+                            <td><a href="#none">24</a></td>
+                            <td><a href="#none">25</a></td>
+
+                        </tr>
+                        <tr>
+                            <td><a href="#none">15</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">14</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">13</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">12</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">11</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">10</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">9</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">8</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">7</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">7</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">5</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">4</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">3</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">2</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">1</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">하차</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#none">0</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="destination_right">
+                    <img src="./img/ready.png" alt="ready">
+                </div>
+            </div>
+        </div>
+        <!-- ./노선찾기 -->
+    </div>
+    <!-- ./터미널 이용 안내 -->
+
+    <!-- 고객센터 -->
+    <div id="cs">
+        <div class="re_title"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+            <img src="./img/point.png" alt="point">
+            <h1>고객센터</h1>
+        </div>
+
+        <div class="cs_table">
+            <div class="main_title2">
+                <h2>새소식</h2>
+            </div>
+
+            <table border="1">
+                <tr>
+                    <th>번호</th>
+                    <th>분류</th>
+                    <th>제목</th>
+                    <th>작성일</th>
+                    <th>조회수</th>
+                </tr>
+                <tr>
+                    <th class="color">299</th>
+                    <td class="color2">공지사항</td>
+                    <td class="text_left">부곡행 노선 운행 중지 안내</td>
+                    <td>2026-01-28</td>
+                    <td>157</td>
+                </tr>
+                <tr>
+                    <th class="color">298</th>
+                    <td class="color2">공지사항</td>
+                    <td class="text_left">2026년 설 연휴 승차권 예매 안내</td>
+                    <td>2026-01-09</td>
+                    <td>742</td>
+                </tr>
+                <tr>
+                    <th class="color">297</th>
+                    <td class="color2">공지사항</td>
+                    <td class="text_left">거가대교 야간통제에 따른 운행 안내</td>
+                    <td>2025-09-06</td>
+                    <td>2330</td>
+                </tr>
+                <tr>
+                    <th class="color">296</th>
+                    <td class="color2">공지사항</td>
+                    <td class="text_left">2025년 추석 연휴 승차권 예매 안내</td>
+                    <td>2025-09-02</td>
+                    <td>3147</td>
+                </tr>
+                <tr>
+                    <th class="color">295</th>
+                    <td class="color2">공지사항</td>
+                    <td class="text_left">인천공항행 신규노선 운행 안내</td>
+                    <td>2025-07-07</td>
+                    <td>3358</td>
+                </tr>
+                <tr>
+                    <th class="color">294</th>
+                    <td class="color2">공지사항</td>
+                    <td class="text_left">취소 수수료 변경 안내</td>
+                    <td>2025-04-21</td>
+                    <td>3700</td>
+                </tr>
+                <tr>
+                    <th class="color">293</th>
+                    <td class="color2">공지사항</td>
+                    <td class="text_left">서산(충남)행 신규 운행 안내</td>
+                    <td>2025-04-15</td>
+                    <td>3464</th=d>
+                </tr>
+                <tr>
+                    <th class="color">292</th>
+                    <td class="color2">공지사항</td>
+                    <td class="text_left">2025년 진해군항제 운행 안내</td>
+                    <td>2023-03-27</td>
+                    <td>3234</td>
+                </tr>
+                <tr>
+                    <th class="color">291</th>
+                    <td class="color2">공지사항</td>
+                    <td class="text_left">심야 요금 인상 안내</td>
+                    <td>2025-03-18</td>
+                    <td>3519</td>
+                </tr>
+                <tr>
+                    <th class="color">290</th>
+                    <td class="color2">공지사항</td>
+                    <td class="text_left">서울남부행 요금 인하 안내</td>
+                    <td>2025-01-08</td>
+                    <td>4748</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 유실물 -->
+        <div class="lost">
+            <div class="main_title2">
+                <h2>유실물 센터</h2>
+            </div>
+
+            <ul class="lost_in">
+                <li data-aos="fade-right" data-aos-duration="1000">
+                    <div class="lost_text">
+                        <div class="in">
+                            <h1>01</h1>
+                        </div>
+                        <div class="in2">
+                            <h2>터미널 건물 내 분실</h2>
+                            <p>
+                                유실물센터 (T.1577-8301)로 본인 물건 확인 <br>
+                                &nbsp; > 유실물 센터 방문 (당 터미널 1F 매표소) <br>
+                                &nbsp; > 본인 확인 (신분증) <br>
+                                &nbsp; > 물품 수령 <br>
+                            </p>
+                            <p>
+                                ※ 유실물은 습득된 날로부터 <span>30일간</span> 보관되며, <br> 이후 유실물의 종류에 따라 폐기 또는 관한 경찰서로 인계처리 됩니다.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-left" data-aos-duration="1000">
+                    <div class="lost_text">
+                        <div class="in">
+                            <h1>02</h1>
+                        </div>
+                        <div class="in2">
+                            <h2>버스 내 분실</h2>
+                            <p>
+                                탑승한 버스의 운수 회사로 분인이 직접 연락한 후 <br> 본인 물건을 확인하여 방문 수령
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- ./유실물 -->
+    </div>
+    <!-- ./고객센터 -->
+
+    <!-- 지도 -->
+    <div id="map_wrap">
+        <div class="map">
+            <div class="re_title"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                <img src="./img/point.png" alt="point">
+                <h1>오시는 길</h1>
+            </div>
+
+            <div class="map_infor">
+                <div class="map_img" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="./img/map_main.png" alt="map_main">
+                </div>
+
+                <div class="map_text" data-aos="fade-left" data-aos-duration="1000">
+                    <ul class="text_in">
+                        <li>
+                            <h3>주소</h3>
+                            <p>부산광역시 사상구 사상로 201</p>
+                            <p>대표전화 : 1577-8301</p>
+                        </li>
+                        <li>
+                            <h3>지하철</h3>
+                            <p>부산 지하철 2호선 사상역 3번, 5번 출구</p>
+                        </li>
+                        <li>
+                            <h3>버스</h3>
+                            <table border="1">
+                                <tr>
+                                    <th>출발역</th>
+                                    <th>버스번호</th>
+                                    <th>출발역</th>
+                                    <th>버스번호</th>
+                                </tr>
+                                <tr>
+                                    <th>부산역</th>
+                                    <td>61, 59, 15, 161</td>
+                                    <th>덕천</th>
+                                    <td>110, 160, 33</td>
+                                </tr>
+                                <tr>
+                                    <th>서면</th>
+                                    <td>31, 33 160, 138-1, 77</td>
+                                    <th>금곡</th>
+                                    <td>15, 39</td>
+                                </tr>
+                                <tr>
+                                    <th>주례</th>
+                                    <td>169, 33, 61, 59, 77</td>
+                                    <th>구포</th>
+                                    <td>110, 33, 15</td>
+                                </tr>
+                                <tr>
+                                    <th>동래</th>
+                                    <td>31, 33</td>
+                                    <th>하단</th>
+                                    <td>338, 138-1, 123</td>
+                                </tr>
+                                <tr>
+                                    <th>숙등</th>
+                                    <td>110</td>
+                                    <th>김해</th>
+                                    <td>128</td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./지도 -->
+
+    <!-- footer -->
+    <div id="footer_wrap">
+        <div class="footer">
+            <img src="./img/footer_bus.png" alt="footer_img">
+        </div>
+        <div class="footer_text">
+            <p>COPYRIGHT 2012 BUSAN WEST BUS TERMINAL. &nbsp;&nbsp;ALL RIGHTS RESERVED.</p>
+        </div>
+    </div>
+    <!-- ./footer -->
+
+
+    <!-- 내가 들고 온 제이쿼리 -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!-- 내가 만든 제이쿼리 -->
+    <script src="./js/script.js"></script>
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
