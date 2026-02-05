@@ -68,6 +68,36 @@ body{
     text-shadow: none;
 }
 
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    .header{
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    #header_wrap{
+        height: 80px;
+    }
+    .header{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .header h1 img{
+        padding-top: 10px;
+        padding-left: 50%;
+    }
+    .gnb{
+        margin: 0 auto;
+    }
+    .gnb> li> a{
+        padding: 2px 10px;
+        font-size: 13.5px;
+    }
+}
+
 /* video */
 #video{
     height: auto;
@@ -201,6 +231,38 @@ body{
     font-weight: 600;
 }
 
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    #introduce{
+        width: 100%;
+    }
+}
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    #introduce{
+        width: 100%;
+    }
+    #introduce h3{
+        font-size: 21px;
+    }
+    #introduce h3 span{
+        font-size: 24px;
+    }
+    .intro_wrap{
+        width: 360px;
+        justify-content: center;
+    }
+    .center{
+        font-size: 16.4px;
+        line-height: 30px;
+    }
+    .center span{
+        font-size: 22.9px;
+    }
+}
+
+
 /* 승차권 예매 */
 #reservation_wrap{
     background-color: #f1ffd1;
@@ -211,10 +273,10 @@ body{
     margin: 0 auto 100px;
     padding: 100px 0;
     box-sizing: border-box;
-    background-image: url(../img/person4.png);
+    /* background-image: url(../img/person4.png);
     background-repeat: no-repeat;
     background-size: 180px;
-    background-position: 120px 270px;
+    background-position: 120px 270px; */
     /* background-color: turquoise; */
 }
 .re_title{
@@ -254,6 +316,13 @@ body{
     background-position: 280px 100px; */
     /* background-color: wheat; */
 }
+.pers{
+    width: 180px;
+    position: absolute;
+    display: block;
+    top: 80px;
+    left: -170px;
+}
 .per{
     width: 180px;
     position: absolute;
@@ -292,6 +361,43 @@ body{
     transition: all 2s;
     display: block;
     width: 100%;
+}
+
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    .reservation{
+        width: 100%;
+    }
+}
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    .reservation{
+        width: 100%;
+        background-image: none;
+    }
+    .go{
+        width: 360px;
+        flex-wrap: wrap;
+        /* background-color: violet; */
+    }
+    .go li{
+        width: 360px;
+        /* background-color: yellow; */
+    }
+    .go li img{
+        width: 100%;
+    }
+    .go li a:hover img{
+        transition: all 2s;
+        transform: translate(-50px, 30px);
+    }
+    .pers{
+        display: none;
+    }
+    .per{
+        display: none;
+    }
 }
 
 /* 주요시설 안내 */
@@ -396,11 +502,46 @@ body{
     background-color: wheat;
 }
 
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    #main_place{
+        width: 100%;
+    }
+}
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    #main_place{
+        width: 100%;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+    .main li{
+        width: 360px;
+    }
+    .main li img{
+        width: 100%;
+    }
+    .main> li:nth-child(2)> p{
+        margin-top: 30px;
+    }
+    .tap> li{
+        width: 80px;
+    }
+    .tap> li> a{
+        width: 80px;
+        padding: 10px 0px;
+        font-size: 12px;
+    }
+}
+
+
 /* 쇼핑/문화시설 */
 #shopping_place{
     width: 1320px;
     margin: 0 auto 34px;
-    padding: 0 66px;
+    /* padding: 0 66px; */
     position: relative;
 }
 .map_point{
@@ -461,6 +602,37 @@ body{
     transition: all 0.3s;
 }
 
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    #shopping_place{
+        width: 100%;
+    }
+    .map_point{
+        display: none;
+    }
+    .list{
+        width: 100%;
+    }
+}
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    #shopping_place{
+        width: 100%;
+        margin-top: 400px;
+    }
+    .map_point{
+        display: none;
+    }
+    .main_title{
+        margin-top: 30px;
+    }
+    .list{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
 /* 편의시설 */
 #convenient_wrap{
     width: 100%;
@@ -470,7 +642,7 @@ body{
 #convenient{
     width: 1320px;
     margin: 0 auto;
-    padding: 100px 66px;
+    padding: 100px 0;
 }
 .conven{
     padding: 0 66px 100px;
@@ -552,6 +724,45 @@ body{
     font-weight: 600;
     margin-right: 10px;
     transition: all 0.6s;
+}
+
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    #convenient_wrap{
+        width: 100%;
+        background-image: none;
+    }
+}
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    #convenient_wrap{
+        width: 100%;
+        height: 1550px;
+        background-image: none;
+    }
+    #convenient{
+        padding: 0;
+    }
+    .conven{
+        width: 360px;
+        flex-wrap: wrap;
+    }
+    .conven li{
+        width: 360px;
+        /* background-color: yellow; */
+    }
+    .conven li .text{
+        width: 360px;
+        /* background-color: violet; */
+    }
+    .conven li img{
+        /* display: none; */
+    }
+    .big{
+        font-size: 12px;
+    }
+    
 }
 
 
@@ -676,6 +887,47 @@ body{
     padding-left: 45px;
 }
 
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    #terminal{
+        width: 100%;
+    }
+    .ticket .box1_1{
+        width: 900px;
+    }
+    .number{
+        width: 100%;
+    }
+}
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    #terminal{
+        width: 100%;
+    }
+    .ticket .box1_1{
+        width: 360px;
+    }
+    .box1{
+        width: 85px;
+    }
+    .ticket .box1 li{
+        white-space: nowrap;
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    .number{
+        padding-left: 30px;
+        font-size: 12px;
+    }
+    .box1_1> table{
+        width: 340px;
+        /* white-space: nowrap; */
+        font-size: 12px;
+    }
+}
+
+
 /* 노선 찾기 */
 #route{
     width: 1320px;
@@ -757,6 +1009,64 @@ body{
     }
 }
 
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    .destination{
+        width: 100%;
+    }
+    #route{
+        width: 100%;
+    }
+}
+
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    .destination{
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: 1100px;
+    }
+    #route{
+        width: 100%;
+    }
+    .destination_left> table{
+        width: 320px;
+        height: 320px;
+    }
+    .destination_left table td a{
+        width: 10px;
+        /* height: 10px; */
+        font-size: 8px;
+        /* height: 25px; */
+        font-weight: 600;
+        display: block;
+        text-align: center;
+        /* margin-top: 5px; */
+        /* border-radius: 50px; */
+        /* padding: 0 5px; */
+        /* border: 2px solid #99df01; */
+        /* background-color: #99df01; */
+    }
+    .move_bus{
+        display: none;
+    }
+    .destination_left{
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 20px 140px;
+    }
+    .destination_right{
+        display: flex;
+        justify-content: center;
+    }
+    .destination_right img{
+        margin-right: 50px;
+    }
+}
+
+
 /* 고객센터 */
 #cs{
     width: 1320px;
@@ -808,6 +1118,33 @@ body{
 .cs_table> table th, .cs_table> table td{
     border: 1px solid #84d150;
 }
+
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    #cs{
+        width: 100%;
+    }
+    .cs_table{
+        width: 100%;
+        background: none;
+    }
+}
+
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    #cs{
+        width: 100%;
+    }
+    .cs_table{
+        width: 100%;
+        background: none;
+    }
+    .cs_table table{
+        font-size: 14px;
+    }
+}
+
 
 /* 유실물 센터 */
 .lost{
@@ -878,6 +1215,38 @@ body{
     line-height: 20px;
     margin-top: 12px;
 }
+
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    .lost{
+        width: 100%;
+    }
+}
+
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    .lost{
+        width: 100%;
+    }
+    .lost_in{
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .in2 h2{
+        font-size: 20px;
+    }
+    .in2 p, .in2 p:nth-child(3){
+        font-size: 11px;
+    }
+    .lost_in li h1{
+        font-size: 24px;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+}
+
 
 /* 지도 */
 #map_wrap{
@@ -951,6 +1320,29 @@ body{
     background-color: #e1ffa0;
 }
 
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    .map{
+        width: 100%;
+    }
+}
+
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    .map{
+        width: 100%;
+    }
+    .map_infor{
+        flex-wrap: wrap;
+    }
+    .map_img{
+        width: 360px;
+        height: 200px;
+    }
+}
+
+
 /* footer */
 #footer_wrap{
     height: 500px;
@@ -995,6 +1387,63 @@ body{
     transition: all 0.3s;
     color: #99df01;
 }
+
+/* ★ 반응형 - table 사이즈 */
+@media(max-width:1500px){
+    html, body{ 
+        overflow-x: hidden;
+    }
+    #footer_wrap{
+        background-color: #f1ffd1;
+        background-image: url(../img/background3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .footer img{
+        display: block;
+        width: 280px;
+        position: absolute;
+        bottom: -50px;
+        left: 250px;
+        animation: none;
+    }
+    .footer_text{
+        width: 100%;
+    }
+}
+
+
+/* ★ 반응형 - mobile 사이즈 */
+@media(max-width:700px){
+    html, body{ 
+        overflow-x: hidden;
+    }
+    #footer_wrap{
+        background-color: #f1ffd1;
+        background-image: url(../img/background3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+    .footer img{
+        display: block;
+        width: 280px;
+        position: absolute;
+        bottom: -50px;
+        left: 120px;
+        animation: none;
+    }
+    .footer_text{
+        width: 400px;
+    }
+    .footer_text p{
+        /* font-size: 18px; */
+    }
+}
+
+
 
 /* 스크롤 */
 /* ===== Scrollbar CSS ===== */
